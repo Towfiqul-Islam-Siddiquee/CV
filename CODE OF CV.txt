@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Towfiqul Islam Siddiquee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: square;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .skills span {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        /* Profile Picture Style */
+        .profile-pic {
+            display: block;
+            width: 211px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 0%;
+            margin: 20px auto;
+            border: 3px solid #4CAF50;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Curriculum Vitae</h1>
+        <h1>of</h1>
+        <h2>Towfiqul Islam Siddiquee</h2>
+        <p>Computer Science & Engineering Student | Premier University, Chittagong</p>
+   </header>
+
+   <!-- Profile Picture -->
+   <img src="mypic.png" alt="Profile Picture" class="profile-pic">
+
+    <main>
+        <!-- Career Objective -->
+        <section>
+            <h2>Career Objective</h2>
+            <p>
+                Motivated and detail-oriented Computer Science student seeking opportunities to 
+                apply my knowledge in software development, problem-solving, and data analysis 
+                to contribute to innovative projects while continuously learning and growing.
+            </p>
+        </section>
+
+        <!-- Basic Information -->
+        <section>
+            <h2>Basic Information</h2>
+            <p><strong>Full Name:</strong> Towfiqul Islam Siddiquee</p>
+            <p><strong>Father's Name:</strong> Jamal Ahmed Sikder</p>
+            <p><strong>Mother's Name:</strong> Dilruba Begum</p>
+            <p><strong>Date of Birth:</strong> 08 January 2004</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Nationality:</strong> Bangladeshi</p>
+            <p><strong>Religion:</strong> Islam</p>
+            <p><strong>Marital Status:</strong> Married</p>
+            <p><strong>Blood Group:</strong> A+</p>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BSc in CSE</td>
+                        <td>Premier University, Chittagong</td>
+                        <td>2024-Present</td>
+                        <td>CGPA: running</td>
+                    </tr>
+                    <tr>
+                        <td>Higher Secondary Certificate</td>
+                        <td>Hazera Taju Degree College, Chittagong</td>
+                        <td>2020-2022</td>
+                        <td>GPA: 5.00</td>
+                    </tr>
+                    <tr>
+                        <td>Secondary School Certificate</td>
+                        <td>Nasirabad Government Boys High School, Chittagong</td>
+                        <td>2018-2020</td>
+                        <td>GPA: 5.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Technical Skills -->
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>C++</span>
+                <span>Data Structures</span>
+            </div>
+        </section>
+
+        <!-- Interests -->
+        <section>
+            <h2>Interests</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Competitive Programming</li>
+                <li>Artificial Intelligence & Machine Learning</li>
+                <li>Reading Technology Blogs</li>
+                <li>Open Source Contribution</li>
+            </ul>
+        </section>
+
+        <!-- Contact Information -->
+        <section>
+            <h2>Contact</h2>
+            <address>
+                <p>Email: <a href="mailto:itowfiqul3@gmail.com">itowfiqul3@gmail.com</a></p>
+                <p>Phone: +880 1518388736</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/towfiqul-islam-siddiquee/" target="_blank">
+                linkedin.com/in/towfiqul-islam-siddiquee</a></p>
+                <p>GitHub: <a href="https://github.com/Towfiqul-Islam-Siddiquee" target="_blank">
+                github.com/Towfiqul-Islam-Siddiquee</a></p>
+            </address>
+        </section>
+
+        <!-- Personal Quote -->
+        <section>
+            <h2>Personal Quote</h2>
+            <blockquote cite="https://www.brainyquote.com/quotes/alan_kay_121993">
+                “The best way to predict the future is to invent it.” – Alan Kay
+            </blockquote>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Towfiqul Islam Siddiquee. All rights reserved.</p>
+    </footer>
+</body>
+</html>
